@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# USE ./curl-test-user-agents.sh http://127.0.0.1/ wordlist.txt
+
 host=$1
 users=$2
 for user in $(cat $users); do
